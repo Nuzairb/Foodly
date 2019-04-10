@@ -1,21 +1,44 @@
 {
-  "name": "gulp4-starter-kit",
+  "name": "@nuzairb/foodly",
   "version": "1.0.0",
-  "description": "Sass Starter Kit",
+  "description": "Restaurant website landing page",
   "main": "index.js",
+  "homepage": "https://github.com/Nuzairb/Foodly",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp build"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nuzairb/Foodly.git"
+  },
+  "keywords": [
+    "Rastaurant",
+    "Food",
+    "Landing Page",
+    "Fast Food"
+  ],
   "author": "Nuzair Ibrahim",
   "license": "",
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
     "browser-sync": "^2.26.3",
-    "cssnano": "^4.1.10",
+    "del": "^3.0.0",
     "gulp": "^4.0.0",
-    "gulp-postcss": "^8.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5"
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fs-extra": "^7.0.1"
   }
 }
