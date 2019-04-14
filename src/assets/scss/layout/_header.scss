@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 .header {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url("/assets/images/hero.jpg");
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     text-align: center;
     .nav {
@@ -36,7 +36,7 @@
             color: $brand-color;
             font-size: 5rem;
             font-family: 'Great Vibes', cursive;
-            margin-top: 15rem;
+            margin-top: 10rem;
             margin-bottom: 1.5rem;
         }
         &--secondary {
@@ -46,9 +46,14 @@
             letter-spacing: .5rem;
             text-transform: uppercase;
             font-weight: 500;
+            margin-bottom: 3.5rem;
         }
     }
     &__cta {
-
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+            background-color: rgb(196, 137, 36);
+        }
     }
 }
