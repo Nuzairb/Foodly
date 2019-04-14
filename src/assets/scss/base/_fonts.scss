@@ -1,3 +1,14 @@
 // -----------------------------------------------------------------------------
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
+/*
+  * Setting up Rem font size for the root elements
+*/ 
+:root {
+    font-size: 62.5%;
+    body {
+      margin: 0;
+      // Body font size 16px
+      font-size: 1.6rem;
+    }
+}
