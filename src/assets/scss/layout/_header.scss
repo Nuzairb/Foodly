@@ -5,6 +5,7 @@
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url("/assets/images/hero.jpg");
     height: 100vh;
     background-size: cover;
+    text-align: center;
     .nav {
         display: flex;
         justify-content: space-between;
@@ -24,8 +25,30 @@
                 font-family: 'Oswald', sans-serif;
                 a {
                     text-decoration: none;
+                    color: $light-grey;
+                    padding-right: 1rem;
                 }
             }
         }
+    }
+    &__title {
+        &--primary {
+            color: $brand-color;
+            font-size: 5rem;
+            font-family: 'Great Vibes', cursive;
+            margin-top: 15rem;
+            margin-bottom: 1.5rem;
+        }
+        &--secondary {
+            font-family: 'Oswald', sans-serif;
+            font-size: 6rem;
+            color: $light-grey;
+            letter-spacing: .5rem;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+    }
+    &__cta {
+
     }
 }
