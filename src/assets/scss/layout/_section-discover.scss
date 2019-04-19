@@ -9,21 +9,19 @@
     justify-content: center;
     padding: 10rem;
     .food-item {
-        height: 44rem;
-        width: 28rem;
+        height: 45rem;
+        width: 30rem;
         background-color: aqua;
         margin-left: 2rem;
         margin-right: 2rem;
         &--1 {
-            background: url(../images/food-1.jpg);
-            background-size: cover;
         }
         &--2 {
-            background-image: url(../images/food-2.jpg);
+            background-image: url(../images/food_2.jpg);
             background-size: cover;
         }
         &--3 {
-            background-image: url(../images/food-3.jpg);
+            background-image: url(../images/food_3.jpg);
             background-size: cover;
         }
     }
