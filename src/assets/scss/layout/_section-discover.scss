@@ -11,11 +11,10 @@
     .food-item {
         height: 45rem;
         width: 30rem;
-        background-color: aqua;
+        background-color: $white;
         margin-left: 2rem;
         margin-right: 2rem;
-        &--1 {
-        }
+        text-align: center;
         &--2 {
             background-image: url(../images/food_2.jpg);
             background-size: cover;
@@ -24,5 +23,22 @@
             background-image: url(../images/food_3.jpg);
             background-size: cover;
         }
+    }
+    &__h1 {
+        font-family: 'Great Vibes', cursive;
+        color: $brand-color;
+    }
+    &__h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        letter-spacing: .2rem;
+    }
+    &__p {
+        color: $mid-grey;
+        font-size: 1.6rem;
+    }
+    &__a {
+        font-size: 1.6rem;
+        text-decoration: none;
     }
 }
