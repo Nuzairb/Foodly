@@ -15,6 +15,7 @@
         margin-left: 2rem;
         margin-right: 2rem;
         text-align: center;
+        padding-top: 10rem;
         &--2 {
             background-image: url(../images/food_2.jpg);
             background-size: cover;
@@ -27,18 +28,23 @@
     &__h1 {
         font-family: 'Great Vibes', cursive;
         color: $brand-color;
+        margin-bottom: 1.5rem;
     }
     &__h2 {
         font-family: 'Oswald', sans-serif;
         font-size: 3rem;
         letter-spacing: .2rem;
+        margin-bottom: 1.5rem;
     }
     &__p {
         color: $mid-grey;
         font-size: 1.6rem;
+        margin-bottom: 2rem;
     }
     &__a {
         font-size: 1.6rem;
         text-decoration: none;
+        color: $brand-color;
+        font-family: 'Oswald', sans-serif;
     }
 }
